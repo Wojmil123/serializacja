@@ -6,10 +6,10 @@ public class Player implements Serializable{
     private String name;
     private String leftArm;
     private String rightArm;
-    private String hp;
-    private String level;
+    private int hp;
+    private int level;
 
-    Player(String name, String hp, String level) {
+    Player(String name, int hp, int level) {
         this.name = name;
         this.hp = hp;
         this.level = level;
